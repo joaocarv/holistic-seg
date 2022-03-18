@@ -1,0 +1,12 @@
+albumentations==0.5.1
+numpy>=1.19.2
+opencv-python==4.4.0.46
+opencv-python-headless==4.4.0.46
+pandas>=0.24.2
+pytorch-lightning==1.0.2
+SimpleITK==1.2.4
+tensorboard==2.3.0
+tensorboardX==2.1
+tensorflow==1.13.
+torch==1.6.0
+torchvision==0.7.0
