@@ -14,7 +14,6 @@ We introduce a novel deep neural network architecture endowed with spatial recur
 This implementation is competitive with state of the art methods, surpassing multiple transformer based architectures. 
 
 **You can find the paper that accompanies this work here:**
-
 [Holistic Modeling in Medical Image Segmentation Using Spatial Recurrence](https://openreview.net/forum?id=avqFDNyt0Dj)
 
 ## Code Structure
