@@ -9,7 +9,7 @@
 
 For medical image segmentation to generalize, we need two components: to identify local descriptions, but at the same time to develop a **holistic** representation of the image that captures long-range spatial dependencies. Unfortunately, we demonstrate that the start of the art does not achieve the latter.
 
-We introduce a novel deep neural network architecture endowed with spatial recurrence that achieves this. The implementation relies on gated recurrent units, and in particular on [spatial dependency layers]((https://arxiv.org/abs/2103.08877),  that directionally traverse the feature map, greatly increasing each layers receptive field and explicitly modeling  non-adjacent relationships between pixel. 
+We introduce a novel deep neural network architecture endowed with spatial recurrence that achieves this. The implementation relies on gated recurrent units, and in particular on [spatial dependency layers](https://arxiv.org/abs/2103.08877),  that directionally traverse the feature map, greatly increasing each layers receptive field and explicitly modeling  non-adjacent relationships between pixel. 
 
 This implementation is competitive with state of the art methods, surpassing multiple transformer based architectures. 
 
