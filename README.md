@@ -51,7 +51,7 @@ pip install -r requirements.txt
 To try specific experiments run:
 
 ```python
-python train.py --dataset DATASET_NAME --train True --test True --n_gpus 1 --early_stopping True --loss DiceCE_Loss --batch_size N --lr 0.0001 --block vgg --model MODEL_NAME --n_layers M --exp_name EXP_NAME
+python train.py --dataset DATASET_NAME --train True --test True --n_gpus 1 --early_stopping True --batch_size N --lr 0.0001 --block vgg --model MODEL_NAME --n_layers M --exp_name EXP_NAME
 ```
 
 Replacing *DATASET_NAME*, *MODEL_NAME*, *EXPERIMENT_NAME*, *N*, and *M* approprietly for the configurations of the experiment. 
